@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateTemplate">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ctbg"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/Tname_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/inputbg"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Name of Template"
+                android:inputType="text"
+                android:paddingStart="30dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/button4"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/qno_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/inputbg"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="No. of Questions"
+                android:inputType="number"
+                android:paddingStart="30dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/button4"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/marks_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/inputbg"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Total Marks"
+                android:inputType="number"
+                android:paddingStart="30dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/button4"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/time_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/inputbg"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Time Duration (hours)"
+                android:inputType="number"
+                android:paddingStart="30dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/button4"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/Ptype"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:paddingStart="30dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/inputbg">
+
+                <RadioButton
+                    android:id="@+id/obj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:checked="true"
+                    android:text="Objective"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/fav1"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/subj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Subjective"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/btn"
+                android:text="Create"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/CancelT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn"
+                android:text="Cancel"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/Tbar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

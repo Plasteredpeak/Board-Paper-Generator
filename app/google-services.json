@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784129434254",
+    "project_id": "board-paper-generator",
+    "storage_bucket": "board-paper-generator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784129434254:android:1460cff60ed24064a21fdf",
+        "android_client_info": {
+          "package_name": "com.example.papergenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784129434254-cj6cte8uqcbln8e6itp185pnb24744sj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHDN-S-ok0Ls-qCjJfbFFGxhjt5c3Cp_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784129434254-cj6cte8uqcbln8e6itp185pnb24744sj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
